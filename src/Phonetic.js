@@ -6,7 +6,7 @@ console.log(props.phonetic);
 return (
     <div className="Phonetic">
        
-<a href={props.phonetic.audio} target="_blank">Listen to pronunciation</a>
+<a href={props.phonetic.audio} target="_blank" rel="noreferrer">Listen to pronunciation</a>
 <span className="text">
  {props.phonetic.text}</span>
     </div>
